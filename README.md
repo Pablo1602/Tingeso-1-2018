@@ -1,2 +1,3 @@
-# CGL-Taller-React
-Repo del taller de React por parte de CGL
+# MINGESO/TINGESO
+#FRONT-END
+
