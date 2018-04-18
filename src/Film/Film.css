@@ -1,0 +1,87 @@
+.film-item{
+  flex-grow: 0;
+  margin: 60px;
+  width: 700px;
+}
+
+.image{
+    height: 60%;
+    position: auto;
+    right: 10px;
+}
+
+.product-name{
+    background-color: #ffffff;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #599ea1;
+}
+
+.product-precio{
+    background-color: #ffffff;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: #599ea1;
+}
+
+.product-code{
+    background-color: #ffffff;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #599ea1;
+
+}
+
+.product-id{
+    background-color: #599ea1;
+}
+
+.button-comprar {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    float: left;
+
+}
+
+.button-comprar {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button-comprar:hover {
+    background-color: #006b1c; /* Green */
+    color: white;
+}
+
+.button-verinfo {
+    background-color: #008CBA; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    float: left;
+
+}
+
+
+.button-verinfo {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button-verinfo:hover {
+    background-color: #002d71; /* Green */
+    color: white;
+}

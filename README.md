@@ -1,2 +1,2 @@
-# Tingeso-1-2018
-trabajo tingeso
+# CGL-Taller-React
+Repo del taller de React por parte de CGL
