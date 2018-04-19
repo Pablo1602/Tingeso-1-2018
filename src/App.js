@@ -34,7 +34,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img className="logo-cart" src={logo} alt="logo" />
-          <h1 className="App-title">Bienvenido al carrito de compra </h1>
+          <h1 className="App-title">Bienvenido al carrito de compras </h1>
         </header>
         <div className="App-intro">
           <FilmList films = {this.state.films} color = {this.state.color} />
