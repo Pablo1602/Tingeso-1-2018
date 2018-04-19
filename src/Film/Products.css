@@ -1,11 +1,11 @@
-.film-item{
+.Product-item{
   flex-grow: 0;
   margin: 60px;
-  width: 700px;
+  width: 300px;
 }
 
 .image{
-    height: 60%;
+    height: 30%;
     position: auto;
     right: 10px;
 }

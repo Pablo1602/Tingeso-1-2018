@@ -5,6 +5,7 @@ import logo from './../puppy.jpg'
 class Products extends Component {
 
     handleCompra = () => {
+
         alert("Boton comprar");
     };
 
@@ -14,8 +15,8 @@ class Products extends Component {
 
   render() {
     return (
-      <div className="film-item">
-          <img className="image" src={logo} alt="logo" />
+      <div className="Product-item">
+          <img className="image" src={"https://www.puppyleaks.com/wp-content/uploads/2017/09/puppysmile.png"} alt="logo" />
 
           <div className="product-id">
               Producto
