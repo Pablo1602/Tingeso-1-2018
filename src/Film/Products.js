@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import './Film.css'
+import './Products.css'
 import logo from './../puppy.jpg'
 
-class Film extends Component {
+class Products extends Component {
 
     handleCompra = () => {
         alert("Boton comprar");
@@ -45,4 +45,4 @@ class Film extends Component {
 
 }
 
-export default Film
+export default Products

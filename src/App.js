@@ -24,9 +24,6 @@ class App extends Component {
     })
   }
 
-  handleChangeColor = () => {
-    this.setState({color:'red'})
-  };
 
   componentDidMount(){
     this.fetchFilms()
@@ -38,7 +35,6 @@ class App extends Component {
         <header className="App-header">
           <img className="logo-cart" src={logo} alt="logo" />
           <h1 className="App-title">Bienvenido al carrito de compra </h1>
-          <button onClick={this.handleChangeColor}> Destroy CSS </button>
         </header>
         <div className="App-intro">
           <FilmList films = {this.state.films} color = {this.state.color} />
