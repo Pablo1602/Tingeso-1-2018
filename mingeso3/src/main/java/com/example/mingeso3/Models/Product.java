@@ -19,6 +19,26 @@ public class Product {
 	public String nombre;
 	@Column(name = "precio")
 	public Integer precio;
+	@Column(name="vencimiento")
+	public String vencimiento;
+	@Column (name = "categoria")
+	public Integer categoria;
+
+	
+
+
+	public String getVencimiento() {
+		return vencimiento;
+	}
+	public void setVencimiento(String vencimiento) {
+		this.vencimiento = vencimiento;
+	}
+	public Integer getCategoria() {
+		return categoria;
+	}
+	public void setCategoria(Integer categoria) {
+		this.categoria = categoria;
+	}
 	public Integer getId() {
 		return id;
 	}
