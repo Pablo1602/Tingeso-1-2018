@@ -6,7 +6,7 @@ class FilmList extends Component {
   buildFilms(){
     return this.props.films.map((film) => {
       return(
-        <Products id={film.id} title={film.title} codigo={film.release_date} precio={film.rt_score} color={this.props.color} />
+        <Products id={film.id}  codigo={film.codigo} nombre={film.nombre} precio={film.precio} color={this.props.color} />
       )
     })
   }

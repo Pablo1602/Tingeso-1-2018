@@ -54,6 +54,7 @@ public class ProductController {
 	
 	
 	/*Agregar Productos*/
+	@CrossOrigin
 	@RequestMapping(method = RequestMethod.POST)
 	@ResponseStatus(HttpStatus.CREATED)
 	@ResponseBody

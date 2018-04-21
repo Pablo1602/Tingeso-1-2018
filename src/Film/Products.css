@@ -1,7 +1,7 @@
 .Product-item{
-  flex-grow: 0;
-  margin: 60px;
-  width: 300px;
+    flex-grow: 0;
+    margin: 60px;
+    width: 300px;
 }
 
 .image{
@@ -95,6 +95,7 @@ div.gallery {
     border: 1px solid #ffffff;
     float: left;
     width: 25%;
+    z-index: -1;
 }
 
 div.gallery:hover {
@@ -102,6 +103,7 @@ div.gallery:hover {
 }
 
 div.gallery img {
+    z-index:-1;
     width: 100%;
     height: auto;
 }
